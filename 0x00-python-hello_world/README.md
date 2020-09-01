@@ -96,6 +96,8 @@ Write a Python script that prints The Zen of Python, by TimPeters, followed by a
 
 - Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)
 
+### Advanced
+
 ### [10-check_cycle.c](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world/10-check_cycle.c "10-check_cycle.c") 
 #### Technical interview preparation:
 
