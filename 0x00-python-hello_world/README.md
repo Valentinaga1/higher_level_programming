@@ -1,6 +1,6 @@
 # 0x00. Python - Hello, World
 
-- About this project:
+## About this project:
 - How to use the Python interpreter
 - How to print text and variables using print
 - How to use strings
