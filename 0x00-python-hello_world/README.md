@@ -122,16 +122,13 @@ Write a Python script that prints exactly and that piece of art is useful - Dora
 
 ### [101-compile](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world/101-compile "101-compile") 
 Write a script that compiles a Python script file.  
-
 The Python file name will be stored in the environment variable $PYFILE  
-
 The output filename has to be $PYFILEc (ex: export PYFILE=my_main.py => output filename: my_main.pyc)  
-
 
 ### [102-magic_calculation.py](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world/102-magic_calculation.py "102-magic_calculation.py") 
 Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:  
 ```          
-3			   0 LOAD_CONST               1 (98)
+3		0 LOAD_CONST               1 (98)
                3 LOAD_FAST                0 (a)
                6 LOAD_FAST                1 (b)
                9 BINARY_POWER
