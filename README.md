@@ -12,9 +12,6 @@ Here the projects in this repository to learn Python and the topics covered by e
 - How to use the if, if ... else statements
 - How to use the while and for loops
 - How to use the break and continues statements
-- What does the pass statement do, and when to use it
 - What is a function and how do you use functions
-- What does return a function that does not use any return statement
 - Scope of variables
-- What’s a traceback
 - What are the arithmetic operators and how to use them
