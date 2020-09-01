@@ -109,3 +109,30 @@ Write a function in C that checks if a singly linked list has a cycle in it.
 
 Requirements:  
 - Only these functions are allowed: write, printf, putchar, puts, malloc, free  
+
+
+### [100-write.py](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world/100-write.py "100-write.py") 
+Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.  
+- Use the function write from the sys module
+- You are not allowed to use print
+- Your script should print to stderr
+- Your script should exit with the status code 1
+
+### [101-compile](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world/101-compile "101-compile") 
+Write a script that compiles a Python script file.  
+
+The Python file name will be stored in the environment variable $PYFILE  
+
+The output filename has to be $PYFILEc (ex: export PYFILE=my_main.py => output filename: my_main.pyc)  
+
+
+### [102-magic_calculation.py](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world/102-magic_calculation.py "102-magic_calculation.py") 
+Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:  
+```          
+3			   0 LOAD_CONST               1 (98)
+               3 LOAD_FAST                0 (a)
+               6 LOAD_FAST                1 (b)
+               9 BINARY_POWER
+              10 BINARY_ADD
+              11 RETURN_VALUE
+```
