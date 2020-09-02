@@ -173,14 +173,14 @@ Write a program that prints the ASCII alphabet, in reverse order, alternating lo
 - You are not allowed to store characters in a variable
 - You are not allowed to import any module
 
-### 101-remove_char_at.py](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x01-python-if_else_loops_functions/101-remove_char_at.py "101-remove_char_at.py")
+### [101-remove_char_at.py](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x01-python-if_else_loops_functions/101-remove_char_at.py "101-remove_char_at.py")
 Write a function that creates a copy of the string, removing the character at the position n (not the Python way, the “C array index”).  
 
 Prototype: def remove_char_at(str, n):  
 
 -  You are not allowed to import any module
 
-### 102-magic_calculation.py](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x01-python-if_else_loops_functions/102-magic_calculation.py "102-magic_calculation.py")
+### [102-magic_calculation.py](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x01-python-if_else_loops_functions/102-magic_calculation.py "102-magic_calculation.py")
 Write the Python function def magic_calculation(a, b, c): that does exactly the same as the following Python bytecode:  
 ``` 
  3            0 LOAD_FAST                0 (a)
