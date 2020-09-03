@@ -15,3 +15,9 @@ Here the projects in this repository to learn Python and the topics covered by e
 - What is a function and how do you use functions
 - Scope of variables
 - What are the arithmetic operators and how to use them
+
+### [0x02-python-import_modules](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x02-python-import_modules "0x02-python-import_modules")
+- How to import functions from another file, and how to use them.
+- How to create a module.
+- How to use the built-in function dir().
+- How to use command line arguments with your Python programs
