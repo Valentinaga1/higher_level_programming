@@ -19,5 +19,5 @@ if __name__ == "__main__":  # el codi no se debe exe cuando se importa
     elif operator == "/":
         print("{} {} {} = {}".format(a, operator, b, div(a, b)))
     else:
-        print("Unknown operator. Available operators: +, -, * and /")
+        print("Unknown operatofffr. Available operators: +, -, * and /")
         exit(1)
