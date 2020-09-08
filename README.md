@@ -21,3 +21,14 @@ Here the projects in this repository to learn Python and the topics covered by e
 - How to create a module.
 - How to use the built-in function dir().
 - How to use command line arguments with your Python programs
+
+### [0x03-python-data_structures](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x03-python-data_structures "0x03-python-data_structures")
+- What are lists and tuples and how to use them
+- What are the differences and similarities between strings and lists
+- What are the most common methods of lists and how to use them
+- How to use lists as stacks and queues
+- What are list comprehensions and how to use them
+- What is a sequence
+- What is tuple packing
+- What is sequence unpacking
+- What is the del statement and how to use it
