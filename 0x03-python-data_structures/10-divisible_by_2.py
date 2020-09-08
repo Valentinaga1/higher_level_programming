@@ -3,3 +3,5 @@ def divisible_by_2(my_list=[]):
     for number in my_list:
         if number % 2 == 0:
             return number
+        else:
+            return none
