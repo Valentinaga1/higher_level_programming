@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
-    for i in range(len(matrix)):
-        for j in range(len(matrix[i])):
-            print(matrix[i][j], end=' ')
-        print()
+    for col in matrix:
+        for fil in col:
+            print("{:d}".format(fil), end="")
+            if fil != col[-1]:  # controlo espa al final
+                print(" ", end="")
+        print("")  # salto de linea entre filas
