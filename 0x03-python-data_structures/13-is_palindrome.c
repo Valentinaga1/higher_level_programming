@@ -54,10 +54,14 @@ int is_palindrome(listint_t **head)
 	/*recorro la lista desde head(a) y la mitad reversada(b)*/
 	while (a != NULL && b != NULL)
 	{
-		if (a->n != b->n)
-			return (0);
-		a = a->next;
-		b = b->next;
+
+		if (a->n != b->n) /*comparo si son diferentes*/
+			return (0);/*ret cero porque son diferentes*/ 
+		else
+		{
+			a = a->next;
+			b = b->next;
+		}
 	}
 	return (1);
 }
