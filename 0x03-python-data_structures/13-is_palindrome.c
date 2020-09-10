@@ -58,7 +58,6 @@ int is_palindrome(listint_t **head)
 			return (0);/*ret cero porque son diferentes*/ 
 		a = a->next;
 		b = b->next;
-		return (1);
 	}
 	return (1);
 }
