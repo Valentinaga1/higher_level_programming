@@ -20,7 +20,7 @@ listint_t *insert_node(listint_t **head, int number)
 
 	if (temp == NULL)
 	{
-		newNode->next = (*head);/*se inserta al inicio. head apuntaría a new*/
+		newNode->next = temp;/*se inserta al inicio. head apuntaría a new*/
 		/*y new apuntaría a donde estaba apuntando head*/
 		(*head) = newNode;
 		return (newNode);
