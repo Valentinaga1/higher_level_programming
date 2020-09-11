@@ -8,5 +8,11 @@ def search_replace(my_list, search, replace):
             new_list
     return new_list
 
-# another way:
+# Another way:
 # return [replace if i == search else i for i in my_list]
+
+# Another way:
+# new_l = list(map(lambda elem: replace if elem == search else elem), my_l))
+# sintaxis:
+# lambda varibles : expresion_evaluar 
+# map(funcion, iterador)
