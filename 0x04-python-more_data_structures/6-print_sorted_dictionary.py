@@ -2,3 +2,10 @@
 def print_sorted_dictionary(a_dictionary):
     for key in sorted(a_dictionary.keys()):  # lo odernamos por keyWord
         print("{}: {}".format(key, a_dictionary[key]))
+
+# Another way:
+# for key in sorted(a_dictionary):
+# print("{}: {}".format(key, a_dictionary[key]))
+
+# for i, j in sorted(a_dictionary.items()):
+# print(i + ':', j)
