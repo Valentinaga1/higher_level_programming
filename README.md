@@ -32,3 +32,11 @@ Here the projects in this repository to learn Python and the topics covered by e
 - What is tuple packing
 - What is sequence unpacking
 - What is the del statement and how to use it
+
+### [0x04-python-more_data_structures](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x04-python-more_data_structures "0x04-python-more_data_structures")
+- What are set and dictionaries. How and when to use them
+- What are the most common methods of set and dictionaries and how to use them
+- How to iterate into a set and into a dictionary
+- What is a key in a dictionary
+- What is a lambda function
+- What is map, reduce and map functions
