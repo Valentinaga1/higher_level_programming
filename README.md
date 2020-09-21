@@ -40,3 +40,8 @@ Here the projects in this repository to learn Python and the topics covered by e
 - What is a key in a dictionary
 - What is a lambda function
 - What is map, reduce and map functions
+
+### [0x05-python-exceptions](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x05-python-exceptions "0x05-python-exceptions")
+- What’s the difference between errors and exceptions
+- What are exceptions and how to use them
+- When do we need to implement a clean-up action after an exception
