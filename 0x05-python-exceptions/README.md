@@ -96,6 +96,8 @@ Write a function that raises a name exception with a message.
 Prototype: def raise_exception_msg(message=""):
 - You are not allowed to import any module
 
+### Advanced
+
 ### [100-safe_print_integer_err.py](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x05-python-exceptions/100-safe_print_integer_err.py "100-safe_print_integer_err.py")
 Write a function that prints an integer.  
 Prototype: def safe_print_integer_err(value):  
