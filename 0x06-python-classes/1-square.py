@@ -4,4 +4,4 @@ class Square():
     def __init__(self, size):
         self.__size = size
 
-# .__atribu: lo hago privado
+# .__atribu: lo hago privado.
