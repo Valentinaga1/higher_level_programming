@@ -9,7 +9,7 @@ class Square():
         '''Initialization of instance attributes
                 Args:
                 size (int): The size of the square
-         '''
+        '''
         if type(size) != int:
             raise TypeError("size must be an integer")
         elif size < 0:
