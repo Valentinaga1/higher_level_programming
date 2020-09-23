@@ -5,7 +5,6 @@
 class Square():
     '''class Square.
     '''
-
     # Creating instance
     def __init__(self, size=0, position=(0, 0)):
         '''Initialization of instance attributes
@@ -13,8 +12,8 @@ class Square():
             size (int): The size of the square
             position (int): Coordenadas
         '''
-        self.__size = size
-        self.__position = position
+        self.size = size
+        self.position = position
 
     # Property. Instance atribute private
     @property
@@ -26,14 +25,6 @@ class Square():
 
     @size.setter
     # setter
-    def size(self, value):
-        '''
-            property  setter to set it
-            Args:
-            value(int)
-        '''
-        return self.__size
-
     def size(self, value):
         '''
             property  setter to set it
@@ -65,7 +56,7 @@ class Square():
         '''
         if type(value) != tuple:
             raise TypeError("position must be a tuple of 2 positive integers")
-        elif len(tuple) != 2:
+        elif len(value) != 2:
             raise TypeError("position must be a tuple of 2 positive integers")
         else:
             self.__position = value
