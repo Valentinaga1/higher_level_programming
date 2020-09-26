@@ -1,0 +1,31 @@
+========================================================================
+'Test for 5-text_indentation.py'
+========================================================================
+'Funtion to test:  text_indentation()'
+========================================================================
+
+'Import function'
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+******************
+Incorrect 
+******************
+>>> text_indentation(1)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation(None)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation([])
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation({})
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation(["Hellow"])
+Traceback (most recent call last):
+TypeError: text must be a string
