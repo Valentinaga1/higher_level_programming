@@ -1,14 +1,12 @@
 #!/usr/bin/python3
-"""Test Module
+"""Module test function max_integer
 """
 import unittest
-
 max_integer = __import__('6-max_integer').max_integer
 
+
 class TestMaxInteger(unittest.TestCase):
-	"""Test for max_integer function
-	"""
-	 def test_max_integer(self):
+    def test_max_integer(self):
         '''
         check valid cases:
         '''
