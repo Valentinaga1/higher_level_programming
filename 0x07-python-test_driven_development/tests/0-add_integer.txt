@@ -22,6 +22,9 @@ Correct
 >>> add_integer(6.5, 7.9)
 13
 
+>>> add_integer(1213213213213213212313213212313223, 45465456465465465465465465465)
+1213258678669678677778678677778688
+
 ******************
 Incorrect
 ******************
@@ -52,3 +55,7 @@ Empty Arguments
 >>> add_integer(None)
 Traceback (most recent call last):
 TypeError: a must be an integer
+
+>>> add_integer()
+Traceback (most recent call last):
+TypeError: add_integer() missing 1 required positional argument: 'a'
