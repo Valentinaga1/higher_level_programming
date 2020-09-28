@@ -34,6 +34,10 @@
 
 ## File Descriptions
 
+
+### [TEST FILES](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development/tests "TEST FILES")
+Files with the test cases for the exercises bellow.
+
 ### Mandatory
 
 ### [0-add_integer.py](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development/0-add_integer.py "0-add_integer.py")
@@ -109,20 +113,4 @@ Write a function that multiplies 2 matrices by using the module NumPy
 To install it: pip3 install numpy==1.15.0  
 Prototype: def lazy_matrix_mul(m_a, m_b):  
 - xTest cases should be the same as 100-matrix_mul but with new exception type/message
-
-### Test Cases
-
-Files with all the test cases
-
-### [0-add_integer.txt](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development/tests/0-add_integer.txt "0-add_integer.txty")
-
-### [2-matrix_divided.txt](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development/tests/2-matrix_divided.txt "2-matrix_divided.txt")
-
-### [3-say_my_name.txt](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development/tests/3-say_my_name.txt "3-say_my_name.txt")
-
-### [4-print_square.txt](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development/tests/4-print_square.txt "4-print_square.txt")
-
-### [5-text_indentation.txt](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development/tests/5-text_indentation.txt "5-text_indentation.txt")
-
-### [6-max_integer_test.py](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development/tests/6-max_integer_test.py "6-max_integer_test.py")
 
