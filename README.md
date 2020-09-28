@@ -46,6 +46,14 @@ Here the projects in this repository to learn Python and the topics covered by e
 - What are exceptions and how to use them
 - When do we need to implement a clean-up action after an exception
 
+### [0x07-python-test_driven_development](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development "0x07-python-test_driven_development")
+- What’s an interactive test
+- Why tests are important
+- How to write Docstrings to create tests
+- How to write documentation for each module and function
+- What are the basic option flags to create tests
+- How to find edge cases
+
 ### [0x06-python-classes](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x06-python-classes "0x06-python-classes")  
 ### [0x08-python-more_classes](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x08-python-more_classes "0x08-python-more_classes") 
 
