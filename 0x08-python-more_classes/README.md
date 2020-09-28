@@ -34,6 +34,8 @@
 
 ## File Descriptions
 
+### [MAIN FILES](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x08-python-more_classes/main "Main Files")
+
 ### Mandatory
 
 ### [0-rectangle.py](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x08-python-more_classes/0-rectangle.py "0-rectangle.py")
