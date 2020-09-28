@@ -54,8 +54,7 @@ Here the projects in this repository to learn Python and the topics covered by e
 - What are the basic option flags to create tests
 - How to find edge cases
 
-### [0x06-python-classes](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x06-python-classes "0x06-python-classes")  
-### [0x08-python-more_classes](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x08-python-more_classes "0x08-python-more_classes") 
+### [0x06-python-classes](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x06-python-classes "0x06-python-classes")   [0x08-python-more_classes](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x08-python-more_classes "0x08-python-more_classes") 
 
 - What is a class
 - What is an object and an instance and what is the difference
