@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Module that defines a class Rectangle
 """
 
@@ -55,6 +56,8 @@ class Rectangle:
         return (self.__height * 2 + self.__width * 2)
 
     def __str__(self):
+        """Method to be used when use print on Rectangle
+        """
         string = ""
         if self.__width == 0 or self.__height == 0:
             return("")
