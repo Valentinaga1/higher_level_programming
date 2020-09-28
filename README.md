@@ -45,3 +45,24 @@ Here the projects in this repository to learn Python and the topics covered by e
 - What’s the difference between errors and exceptions
 - What are exceptions and how to use them
 - When do we need to implement a clean-up action after an exception
+
+### [0x06-python-classes](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x06-python-classes "0x06-python-classes")  
+### [0x08-python-more_classes](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x08-python-more_classes "0x08-python-more_classes") 
+
+- What is a class
+- What is an object and an instance and what is the difference
+- What is an attribute and a property and what is the difference
+- What are and how to use public, protected and private attributes
+- What is self
+- What is a method
+- What is the special __init__ method and how to use it
+- What is Data Abstraction, Data Encapsulation, and Information Hiding
+- What is the Pythonic way to write getters and setters in Python
+- What are the special __str__ and __repr__ methods, how to use them  and what is the difference
+- What is a class attribute, an object attribute, a class method and what is the difference
+- What is a static method
+- How to dynamically create arbitrary new attributes for existing instances of a class
+- How to bind attributes to object and classes
+- What is and what does contain __dict__ of a class and of an instance of a class
+- How does Python find the attributes of an object or class
+- How to use the getattr function
