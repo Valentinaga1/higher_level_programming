@@ -4,6 +4,6 @@
 
 
 class Rectangle:
-    pass
     """Defining class Rectangle
     """
+    pass
