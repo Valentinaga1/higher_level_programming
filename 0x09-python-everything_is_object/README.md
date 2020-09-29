@@ -311,4 +311,3 @@ After the execution of line 4, is the string object pointed by b deleted? Answer
 
 ### [106-line5.txt](https://github.com/Valentinaga1/holbertonschool-higher_level_programming/tree/master/0x09-python-everything_is_object/106-line5.txt "106-line5.txt")
 How many string objects are created by the execution of the last line of the script
-
