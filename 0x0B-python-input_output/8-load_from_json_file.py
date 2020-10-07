@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import json
-""""Module to define a creation of an object from a JSON
+""""Module to define a creation of an object from a JSON.
 """
 
 

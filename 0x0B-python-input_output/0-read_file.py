@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module to define a file reading function
+"""Module to define a file reading function.
 """
 
 

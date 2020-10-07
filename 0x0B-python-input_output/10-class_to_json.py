@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import json
-"""Module to define a function that returns a dictionary description
+"""Module to define a function that returns a dictionary description.
 """
 
 

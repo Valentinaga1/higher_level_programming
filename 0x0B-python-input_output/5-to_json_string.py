@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import json
-""""Module to define a JSON representation string function
+""""Module to define a JSON representation string function.
 """
 
 

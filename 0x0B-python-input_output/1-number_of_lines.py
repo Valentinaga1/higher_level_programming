@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module to define a function to return number of lines of text file
+"""Module to define a function to return number of lines of text file.
 """
 
 

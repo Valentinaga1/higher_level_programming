@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module to define a file writting function
+"""Module to define a file writting function.
 """
 
 
