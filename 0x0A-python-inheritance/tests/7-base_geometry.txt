@@ -1,0 +1,8 @@
+==================================
+ 'Testing 7-base_geometry.py'
+==================================
+
+'Testing the class `BaseGeometry ` that sort a list.'
+
+'Import function'
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
