@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-import json
 """"Module to define a JSON representation string function.
 """
+import json
 
 
 def save_to_json_file(my_obj, filename):

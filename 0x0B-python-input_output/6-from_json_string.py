@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-import json
 """"Module to define a Python representation string function from JSON.
 """
+import json
 
 
 def from_json_string(my_str):

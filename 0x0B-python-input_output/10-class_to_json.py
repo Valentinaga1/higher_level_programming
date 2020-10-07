@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-import json
 """Module to define a function that returns a dictionary description.
 """
+
+import json
 
 
 def class_to_json(obj):
