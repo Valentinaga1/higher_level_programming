@@ -2,8 +2,6 @@
 """Module to define a function that returns a dictionary description.
 """
 
-import json
-
 
 def class_to_json(obj):
     """Function that returns the dictionary description with simple data
