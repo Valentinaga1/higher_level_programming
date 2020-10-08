@@ -15,8 +15,8 @@ class Student():
         dictionary = {}
         if type(attrs) == list:
             for i in attrs:
-                    if type(i) == str and i in self.__dict__.keys():
-                        dictionary[i] = self.__dict__[i]
-                    return dictionary
+                if type(i) == str and i in self.__dict__.keys():
+                    dictionary[i] = self.__dict__[i]
+            return dictionary
         else:
             return self.__dict__
