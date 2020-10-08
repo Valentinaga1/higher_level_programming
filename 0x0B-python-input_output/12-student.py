@@ -11,11 +11,11 @@ class Student():
         self.last_name = last_name
         self.age = age
 
-    def to_json(self, attrs=None):	
+    def to_json(self, attrs=None):
         dictionary = {}
         if type(attrs) == list:
             for i in attrs:
-                    if type(attrs) == list and type(i) == str and i in self.__dict__.keys():
+                    if type(i) == str and i in self.__dict__.keys():
                         dictionary[i] = self.__dict__[i]
                     return dictionary
         else:
