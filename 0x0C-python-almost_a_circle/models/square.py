@@ -18,7 +18,7 @@ class Square(Rectangle):
     def __str__(self):
         """Defining str method to print"""
         return "[{}] ({}) {}/{} - {}".format(
-            self.__class__.__name__, self.id, self.x, self.y, self.width)
+             self.__class__.__name__, self.id, self.x, self.y, self.width)
 
     @property
     def size(self):
