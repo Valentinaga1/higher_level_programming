@@ -45,7 +45,7 @@ class Base:
     def from_json_string(json_string):
         """Defining a static method that returns a string from JSON rep"""
         if json_string is None or len(json_string) == 0:
-            return "[]"
+            return []
         else:
             return json.loads(json_string)
 
