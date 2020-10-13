@@ -34,7 +34,7 @@ class Base:
     @classmethod
     def save_to_file(cls, list_objs):
         if list_objs is None or list_objs == []:
-            Newlist = []
+            Newlist = cls.to_json_string([])
         else:
             Newlist = cls.to_json_string([obj.to_dictionary()
                                           for obj in list_objs])
@@ -51,6 +51,7 @@ class Base:
 
     @classmethod
     def create(cls, **dictionary):
+		
         dummy = cls(1, 3)
         dummy.update(**dictionary)
         return dummy
