@@ -28,8 +28,8 @@ class Square(Rectangle):
     @size.setter
     def size(self, size):
         """Setter for size"""
+		self.width = size
         self.height = size
-        self.width = size
 
     def update(self, *args, **kwargs):
         """Defining public method to variable arguments"""
