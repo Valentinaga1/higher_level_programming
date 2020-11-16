@@ -82,11 +82,3 @@ What you should learn from this project:
 
 ### [16-no_link.sql](./16-no_link.sql)
 * script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
-
-
-### [4-first_table.sql](./4-first_table.sql)
-*
-
-### [4-first_table.sql](./4-first_table.sql)
-*
-
