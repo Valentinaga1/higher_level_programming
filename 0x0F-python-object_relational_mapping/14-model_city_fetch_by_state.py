@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-
+""" script that prints all City objects from the database hbtn_0e_14_usa
+"""
 if __name__ == "__main__":
 
     import sys
