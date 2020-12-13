@@ -11,9 +11,10 @@ if __name__ == "__main__":
                            database=sys.argv[3])
 
     c = serv.cursor()
-    c.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id ASC")
+    c.execute("SELECT * FROM states ORDER BY id ASC")
     rows = c.fetchall()
     for row in rows:
-        print(row)
+        if row[1][0] == 'N':
+            print(row)
     c.close()
     serv.close()
