@@ -14,10 +14,11 @@ if __name__ == "__main__":
     stateName = sys.argv[4]
     c.execute("SELECT  cities.name FROM cities\
                JOIN states ON cities.state_id = states.id\
-               WHERE states.name=%s ORDER BY cities.id ASC", (stateName,))
+               ORDER BY cities.id ASC")
     rows = c.fetchall()
     for row in rows:
-        print(','.join(row), end=" ", sep=" ")
+        if row[2] == stateName:
+            print(','.join(row), end=" ", sep=" ")
     print()
     c.close()
     serv.close()
