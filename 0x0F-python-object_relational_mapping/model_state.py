@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Script to create a class State
+"""
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 
