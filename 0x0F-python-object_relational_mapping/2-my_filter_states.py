@@ -18,7 +18,8 @@ if __name__ == "__main__":
             stateName))
     rows = c.fetchall()
     for row in rows:
-        print(row)
+        if row[1] == stateName:
+            print(row)
     c.close()
     serv.close()
 
