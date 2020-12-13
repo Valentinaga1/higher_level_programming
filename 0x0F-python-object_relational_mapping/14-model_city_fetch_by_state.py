@@ -17,5 +17,5 @@ if __name__ == "__main__":
     records = session.query(City.id, City.name, State.name).join(
         State, State.id == City.state_id).order_by(City.id)
     for record in records:
-        print("{}: ({}) {}".format(record[0], record[1], record[2]))
+        print("{}: ({}) {}".format(record[2], record[0], record[1]))
     session.close()
