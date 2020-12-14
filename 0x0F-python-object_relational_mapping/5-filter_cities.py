@@ -10,15 +10,17 @@ if __name__ == "__main__":
                            user=sys.argv[1], password=sys.argv[2],
                            database=sys.argv[3])
 
+    newList = []
     c = serv.cursor()
     stateName = sys.argv[4]
-    c.execute("SELECT  cities.name FROM cities\
-               JOIN states ON cities.state_id = states.id\
-               ORDER BY cities.id ASC")
+    c.execute("SELECT c.id, c.name, s.name\
+                    FROM cities AS c\
+                    JOIN states AS s \
+                    ON c.state_id=s.id ORDER BY s.id;")
     rows = c.fetchall()
     for row in rows:
         if row[2] == stateName:
-            print(','.join(row), end=" ", sep=" ")
-    print()
+            newList.append(row[1])
+    print(', '.join(newList))
     c.close()
     serv.close()
