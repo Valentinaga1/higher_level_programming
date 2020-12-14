@@ -18,5 +18,5 @@ if __name__ == "__main__":
         State.name.like('%a%'))
     for record in records:
         session.delete(record)
-        session.commit()
+    session.commit()
     session.close()
