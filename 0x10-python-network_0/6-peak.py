@@ -3,7 +3,7 @@
 
 
 def find_peak(list_of_integers):
-    """Function to find a peak"""
+    """Function to find a peak using binary search"""
 
     if len(list_of_integers) == 0:
         return None
