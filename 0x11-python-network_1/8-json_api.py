@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     try:
         url = "http://0.0.0.0:5000/search_user"
-        payload	= {"q": q}
+        payload = {"q": q}
         req = requests.post(url, payload).json()
 
         if {"id", "name"} <= req.keys():
