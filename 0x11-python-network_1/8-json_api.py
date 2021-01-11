@@ -17,7 +17,7 @@ if __name__ == "__main__":
         payload = {"q": q}
         req = requests.post(url, payload).json()
 
-        if {"id", "name"} <= req.keys():
+        if len(req) > 0:
             print("{[]} {}".format(req.get("id"), req.get("name")))
         else:
             print("No result")
