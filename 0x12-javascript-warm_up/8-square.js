@@ -1,5 +1,5 @@
 #!/usr/bin/node
-let x = '';
+const x = '';
 if (parseInt(process.argv[2])) {
   for (let i = 0; i < process.argv[2]; i++) {
     x = "";

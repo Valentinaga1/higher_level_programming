@@ -1,5 +1,5 @@
 #!/usr/bin/node
-let string = 'C is fun';
+const string = 'C is fun';
 
 if (parseInt(process.argv[2])) {
   for (let i = 0; i < process.argv[2]; i++) {
