@@ -24,6 +24,7 @@ This repository contains programs written in Python for the Higher-Level Program
 | [0x11. Python - Network #1](./0x11-python-network_1) | Interacting with API endpoints with Python's requests module |
 | [0x12. Javascript - Warm Up](./0x12-javascript-warm_up) | Introduction to NodeJS |
 | [0x13. Javascript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures) | Scope, objects and classes in JS |
+| [0x13. Javascript - Web Scraping](./0x14-javascript-web_scraping) | Using fs and request library to make API calls in js
 
 ## Author
 
